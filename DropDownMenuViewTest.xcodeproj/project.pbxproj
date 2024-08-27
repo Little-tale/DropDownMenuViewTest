@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		7BACA3EE2C7DC2B2008D4CFC /* DropDownMenuViewTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BACA3ED2C7DC2B2008D4CFC /* DropDownMenuViewTestApp.swift */; };
-		7BACA3F02C7DC2B2008D4CFC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BACA3EF2C7DC2B2008D4CFC /* ContentView.swift */; };
 		7BACA3F22C7DC2B2008D4CFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BACA3F12C7DC2B2008D4CFC /* Assets.xcassets */; };
 		7BACA3F52C7DC2B2008D4CFC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BACA3F42C7DC2B2008D4CFC /* Preview Assets.xcassets */; };
 		7BACA3FF2C7DC2B2008D4CFC /* DropDownMenuViewTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BACA3FE2C7DC2B2008D4CFC /* DropDownMenuViewTestTests.swift */; };
 		7BACA4092C7DC2B2008D4CFC /* DropDownMenuViewTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BACA4082C7DC2B2008D4CFC /* DropDownMenuViewTestUITests.swift */; };
 		7BACA40B2C7DC2B2008D4CFC /* DropDownMenuViewTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BACA40A2C7DC2B2008D4CFC /* DropDownMenuViewTestUITestsLaunchTests.swift */; };
+		7BACA4182C7DC313008D4CFC /* DropDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BACA4172C7DC313008D4CFC /* DropDownView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		7BACA3EA2C7DC2B2008D4CFC /* DropDownMenuViewTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DropDownMenuViewTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BACA3ED2C7DC2B2008D4CFC /* DropDownMenuViewTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownMenuViewTestApp.swift; sourceTree = "<group>"; };
-		7BACA3EF2C7DC2B2008D4CFC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7BACA3F12C7DC2B2008D4CFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7BACA3F42C7DC2B2008D4CFC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7BACA3FA2C7DC2B2008D4CFC /* DropDownMenuViewTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropDownMenuViewTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +43,7 @@
 		7BACA4042C7DC2B2008D4CFC /* DropDownMenuViewTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropDownMenuViewTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BACA4082C7DC2B2008D4CFC /* DropDownMenuViewTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownMenuViewTestUITests.swift; sourceTree = "<group>"; };
 		7BACA40A2C7DC2B2008D4CFC /* DropDownMenuViewTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownMenuViewTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7BACA4172C7DC313008D4CFC /* DropDownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +94,8 @@
 		7BACA3EC2C7DC2B2008D4CFC /* DropDownMenuViewTest */ = {
 			isa = PBXGroup;
 			children = (
+				7BACA4172C7DC313008D4CFC /* DropDownView.swift */,
 				7BACA3ED2C7DC2B2008D4CFC /* DropDownMenuViewTestApp.swift */,
-				7BACA3EF2C7DC2B2008D4CFC /* ContentView.swift */,
 				7BACA3F12C7DC2B2008D4CFC /* Assets.xcassets */,
 				7BACA3F32C7DC2B2008D4CFC /* Preview Content */,
 			);
@@ -257,8 +257,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BACA3F02C7DC2B2008D4CFC /* ContentView.swift in Sources */,
 				7BACA3EE2C7DC2B2008D4CFC /* DropDownMenuViewTestApp.swift in Sources */,
+				7BACA4182C7DC313008D4CFC /* DropDownView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

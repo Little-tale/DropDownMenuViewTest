@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct DropDownMenuViewTestApp: App {
+    
+    @State
+    var currentSelectedIndex = 0
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            DropDownView(options: ["쉴휴","잭과 콩나물", "맨토스"], selectedOptionIndex: $currentSelectedIndex)
         }
     }
 }
